@@ -3,4 +3,4 @@ layout: page
 title: Contact
 ---
 
-If you are having any problems, any questions or suggestions, feel free to <a href = "mailto: derekcchan@outlook.com">send me an email</a>
+If you are having any questions feel free to <a href = "mailto: derekcchan@outlook.com">send me an email</a>
