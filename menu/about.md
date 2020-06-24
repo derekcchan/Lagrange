@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hello.
+image: cutting.jpg
 ---
 
 Since you're here, I might as well tell you a little bit about myself.
