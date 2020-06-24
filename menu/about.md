@@ -1,18 +1,12 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Hello.
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+Hi there! Since you're here, I might as well tell you a little bit about myself.
 
-### Getting Started
+I am an electrical engineer working in the defense industry at [Northrop Grumman](https://www.northropgrumman.com) and it has been a wonderful experience. I graduated from [Cal Poly Pomona](https://www.cpp.edu/) with a BS in EE. I am currently pursuing my graduate studies at the [University of Southern California](https://www.usc.edu) with an emphasis on [VLSI design](https://en.wikipedia.org/wiki/Very_Large_Scale_Integration).
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+I love spending my free time messing with technology and coming up with new things to keep me entertained. I also really enjoy traveling and photography. I love to learn and document my experiences with new cultures, people, and food through photography! I also enjoy reading about financial invesntment strategies and trading equity and options on the side.
 
-### Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
-
-### Questions?
-
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
