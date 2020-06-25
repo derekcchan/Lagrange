@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Network-On-Chip (NoC) with Forward Error Correction"
+title: "Asynchronous Network-On-Chip (NoC) with Forward Error Correction"
 author: "Derek Chan"
 categories: projects
 tags: [engineering]
