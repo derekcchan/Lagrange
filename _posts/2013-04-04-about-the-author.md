@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: photos
 title: "About the Author"
 author: "Derek Chan"
 categories: journal
