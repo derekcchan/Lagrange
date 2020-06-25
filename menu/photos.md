@@ -2,7 +2,7 @@
 layout: photos
 title: Photos
 ---
-<ul class="posts">
+<ul class="photos">
   {% for post in site.posts %}
 
     {% unless post.next %}
