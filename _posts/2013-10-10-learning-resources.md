@@ -2,8 +2,8 @@
 layout: post
 title: "Learning Resources"
 author: "Paul Le"
-categories: journal
-tags: [documentation,sample]
+categories: engineering
+tags: [engineering]
 image: spools.jpg
 ---
 
