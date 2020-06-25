@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: photos
 title: Photos
 ---
 <ul class="posts">
