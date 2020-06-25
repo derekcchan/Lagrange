@@ -1,8 +1,8 @@
 ---
-layout: photos
+layout: post
 title: "About the Author"
 author: "Derek Chan"
-categories: journal
+categories: projects
 tags: [documentation,sample]
 image: cutting.jpg
 ---
