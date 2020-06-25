@@ -4,12 +4,12 @@ title: "Asynchronous Network-On-Chip (NoC) with Forward Error Correction"
 author: "Derek Chan"
 categories: projects
 tags: [engineering]
-image: cards.jpg
+image: noc.jpg
 ---
 
 ## Introduction
 
-The main purpose of using a Network-On-Chip (NoC) is to allow communication among multiple network clients (nodes) in a chip. A chip that emplys an on chip network is composed of a number of network nodes: processors, DSPs, memories, peripheral controllers, gateways to networks on other chips, as well as custom logic. Rather than connecting each top-level module by routing dedicated wires, they are connected to a network that route packets between them. By sharing the wiring resources between various communication flows, will allow the chip to make a much more efficent use of the wires. For instance, when one client is idel, other clients may continue to make use of network resources.
+The main purpose of using a Network-On-Chip (NoC) is to allow communication among multiple network clients (nodes) in a chip. A chip that empolys an on chip network is composed of a number of network nodes: processors, DSPs, memories, peripheral controllers, gateways to networks on other chips, as well as custom logic. Rather than connecting each top-level module by routing dedicated wires, they are connected to a network that route packets between them. By sharing the wiring resources between various communication flows, will allow the chip to make a much more efficent use of the wires. For instance, when one client is idel, other clients may continue to make use of network resources.
 
 ## Properties of NoC
 
