@@ -1,15 +1,22 @@
 ---
 layout: post
-title: "Network-On-Chip (NoC)with Forward Error Correction"
+title: "Network-On-Chip (NoC) with Forward Error Correction"
 author: "Derek Chan"
 categories: projects
 tags: [engineering]
 image: cards.jpg
 ---
 
-# Markdown Support
+The main purpose of using a Network-On-Chip (NoC) is to allow communication among multiple network clients (nodes) in a chip. A chip that emplys an on chip network is composed of a number of network nodes: processors, DSPs, memories, peripheral controllers, gateways to networks on other chips, as well as custom logic. Rather than connecting each top-level module by routing dedicated wires, they are connected to a network that route packets between them. By sharing the wiring resources between various communication flows, will allow the chip to make a much more efficent use of the wires. For instance, when one client is idel, other clients may continue to make use of network resources.
 
-As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/). Examples of these text formatting features can be seen below. You can find this post in the `_posts` directory.
+## Properties of NoC
+
+1. **NoC Topology**
+NoC comprised of routers interconnected by point-to-point links. Network topology can vary depending on system needs, module sizes and placements. Some common topologies include tree, mesh and ring.
+
+2. **NoC Routing Techniques**
+Routing techniques can be classified into mainly two types, deterministic
+and adaptive. In deterministic routing the path from source to destination are fixed whileadaptive routing allows the path to change depending upon the current state of load on the network.
 
 ## Basic Formatting
 
