@@ -12,8 +12,8 @@ layout: default
 
 {{ content }}
 
-<span class="post-date">
-  {{ site.data.settings.post_date_prefix }}
+<span class="photos-date">
+  {{ site.data.settings.photos_date_prefix }}
   {% assign d = page.date | date: "%-d"  %}
   {{ page.date | date: "%B" }}
   {% case d %}
