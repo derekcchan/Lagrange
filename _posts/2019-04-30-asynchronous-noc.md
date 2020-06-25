@@ -7,6 +7,8 @@ tags: [engineering]
 image: cards.jpg
 ---
 
+## Introduction
+
 The main purpose of using a Network-On-Chip (NoC) is to allow communication among multiple network clients (nodes) in a chip. A chip that emplys an on chip network is composed of a number of network nodes: processors, DSPs, memories, peripheral controllers, gateways to networks on other chips, as well as custom logic. Rather than connecting each top-level module by routing dedicated wires, they are connected to a network that route packets between them. By sharing the wiring resources between various communication flows, will allow the chip to make a much more efficent use of the wires. For instance, when one client is idel, other clients may continue to make use of network resources.
 
 ## Properties of NoC
@@ -16,6 +18,18 @@ NoC comprised of routers interconnected by point-to-point links. Network topolog
 
 2. **NoC Routing Techniques -**
 Routing techniques can be classified into mainly two types, deterministic and adaptive. In deterministic routing the path from source to destination are fixed whileadaptive routing allows the path to change depending upon the current state of load on the network.
+
+3. **NoC Switching Techniques -**
+Switching techniques can be classified into mainly two types, circuit switching and packet switching. In circuit switching entire path is set up and reserved before an actual data is sent, while in packet switching data is forwarded on per hop basis. Each packet contains data as well as control information.
+
+4. **NoC Flow Control -**
+Flow control mainly addresses the issue of correct operation of the network. It determines how the networks’ resources, such as channel bandwidth and buffercapacity, are allocated to packets traversing the network, ensuring that the network does not accept more packets than it can transmit successfully.
+
+5. **Error Detection & Correction -**
+At the output of the network and the interface to the receiver, an error detecting circuit should verify if the data it received is error-free and either discard the packets that are corrupted or correct the error before passing the data.
+
+## Project Specifications
+The baseline project specification is an asynchronous NoC with a tree topology with 16 asynchronous blocks. The routing technique will be deterministic and the switching technique will be packet switching. 
 
 ## Basic Formatting
 
