@@ -11,12 +11,11 @@ The main purpose of using a Network-On-Chip (NoC) is to allow communication amon
 
 ## Properties of NoC
 
-1. **NoC Topology**
+1. **NoC Topology - **
 NoC comprised of routers interconnected by point-to-point links. Network topology can vary depending on system needs, module sizes and placements. Some common topologies include tree, mesh and ring.
 
-2. **NoC Routing Techniques**
-Routing techniques can be classified into mainly two types, deterministic
-and adaptive. In deterministic routing the path from source to destination are fixed whileadaptive routing allows the path to change depending upon the current state of load on the network.
+2. **NoC Routing Techniques - **
+Routing techniques can be classified into mainly two types, deterministic and adaptive. In deterministic routing the path from source to destination are fixed whileadaptive routing allows the path to change depending upon the current state of load on the network.
 
 ## Basic Formatting
 
